@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Paytone+One&display=swap');
+
 body {
-    background-color: #7f5af0;
+    background-color: #16161a;
+    color:#94a1b2;
+    font-family: 'Nunito', sans-serif;
+}
+header {
+    color: #fffffe;
+    font-family: 'Paytone One', sans-serif;
 }
