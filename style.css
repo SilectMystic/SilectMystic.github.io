@@ -44,3 +44,12 @@ footer > a {
 footer > a:hover {
     background-color: #2cb67d;
 }
+
+li > a {
+    color: #72757e;
+    text-decoration: none;
+}
+
+li > a:hover {
+    background-color: #2cb67d;
+}
