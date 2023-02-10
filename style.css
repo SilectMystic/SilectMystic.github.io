@@ -29,3 +29,18 @@ nav > a {
 nav > a:hover {
     background-color: #2cb67d;
 }
+
+footer {
+    background-color: #72757e;
+}
+
+footer > a {
+    color: #010101;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+}
+
+footer > a:hover {
+    background-color: #2cb67d;
+}
