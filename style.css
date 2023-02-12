@@ -53,3 +53,19 @@ li > a {
 li > a:hover {
     background-color: #2cb67d;
 }
+
+p > a {
+    color: #72757e;
+    text-decoration: none;
+}
+
+p > a:hover {
+    background-color: #2cb67d;
+}
+
+p > iframe {
+    float: right;
+    background-color: #2cb67d;
+    padding: 8px;
+
+}
