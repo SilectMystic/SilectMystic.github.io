@@ -69,3 +69,11 @@ p > iframe {
     padding: 8px;
 
 }
+
+#robot{
+    overflow: auto;
+}
+
+.a {
+    float: right;
+}
