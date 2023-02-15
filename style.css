@@ -77,3 +77,11 @@ p > iframe {
 .a {
     float: right;
 }
+
+.formBoxes {
+    background-color: #010101;
+    color: #fffffe;
+    font-family: 'Nunito', sans-serif;
+    /* Add a white border to the boxes */
+
+}
