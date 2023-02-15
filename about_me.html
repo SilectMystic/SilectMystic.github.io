@@ -21,15 +21,23 @@
     </nav>
 
     <h1>Contact me!</h1>
-    <form>
-    <!-- It doesnt work but at least its something (Do this at a later stage) -->
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+    <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+    method="post">
+        <input name="send-to" value="cvasquez@brooklynsteamcenter.org" hidden>
+        <label>Name:</label> <br>
+        <input placeholder="Firstname Lastname" name="fullName"> <br>
         <br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
+        <label>Email:</label><br>
+        <input placeholder="name@gmail.com" name="email"> <br>
         <br>
-        <input type="submit" value="Submit">
+        <label>Best Contact Time:</label> <br>
+        <input type="time" name="time"> <br>
+        <br>
+        <label>Comments</label> <br>
+        <textarea name="textBox"></textarea> <br>
+        <br>
+        <input type="submit">
+        <input type="reset">
     </form> <br> <hr>
     <h2> Contact Info</h2> <br>
     <li> <a href="https://www.linkedin.com/in/carlos-vasquez-642ba8245/"> LinkedIn</a> </li> <br>
