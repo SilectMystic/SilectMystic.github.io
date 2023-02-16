@@ -31,7 +31,7 @@ nav > a:hover {
 }
 
 footer {
-    background-color: #72757e;
+    background-color: #8c919e;
 }
 
 footer > a {
@@ -82,6 +82,21 @@ p > iframe {
     background-color: #010101;
     color: #fffffe;
     font-family: 'Nunito', sans-serif;
-    /* Add a white border to the boxes */
+    border: 3px;
+    border-color: white;
+    border-style: solid;
 
+}
+
+.button{
+    color: #7f5af0;
+    font-family: 'Acme', sans-serif;
+    border: 3px;
+    border-color: #2cb67d;
+    border-style: solid;
+
+}
+
+.button:hover {
+    background-color: #232946;
 }
