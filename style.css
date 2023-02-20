@@ -28,11 +28,11 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: #2cb67d;
+    background-color: #55423d;
 }
 
 footer {
-    background-color: #8c919e;
+    background-color: #96979c;
 }
 
 footer > a {
@@ -43,29 +43,29 @@ footer > a {
 }
 
 footer > a:hover {
-    background-color: #2cb67d;
+    background-color: #55423d;
 }
 
 li > a {
-    color: #72757e;
+    color: #fff3ec;
     text-decoration: none;
 }
 
 li > a:hover {
-    background-color: #2cb67d;
+    background-color: #55423d;
 }
 
 p > a {
-    color: #72757e;
+    color: #fff3ec;
     text-decoration: none;
 }
 
 p > a:hover {
-    background-color: #2cb67d;
+    background-color: #55423d;
 }
 
 p > iframe {
-    background-color: #2cb67d;
+    background-color: #55423d;
     padding: 8px;
 
 }
@@ -92,14 +92,14 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    border: #2cb67d 5px solid;
+    border: #55423d 5px solid;
 }
 
 input[type=submit], input[type=reset] {
     color: #7f5af0;
     font-family: 'Acme', sans-serif;
     border: 3px;
-    border-color: #2cb67d;
+    border-color: #55423d;
     border-style: solid;
     border-radius: 9px;
     padding: 4px;
@@ -117,4 +117,8 @@ input[type=submit]:hover, input[type=reset]:hover {
 
 .bold {
     font-weight: bold;
+}
+
+.rounded {
+    border-radius: 8px;
 }
