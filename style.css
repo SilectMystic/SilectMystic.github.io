@@ -18,6 +18,8 @@ h1, h2, h3, h4, h5, h6 {
 nav {
     background-color: #72757e;
     text-align: left;
+    position: sticky;
+    top: 0px;
 }
 
 nav > a {
@@ -121,4 +123,11 @@ input[type=submit]:hover, input[type=reset]:hover {
 
 .rounded {
     border-radius: 8px;
+}
+
+p{
+    max-width: 668px;
+    position:  relative;
+    left: 15%;
+    /* work in progress */
 }
