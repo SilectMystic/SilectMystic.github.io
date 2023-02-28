@@ -125,9 +125,22 @@ input[type=submit]:hover, input[type=reset]:hover {
     border-radius: 8px;
 }
 
-p{
+ /* p{
     max-width: 668px;
     position:  relative;
-    left: 15%;
-    /* work in progress */
+    left: 15%;}
+     work in progress  */
+
+@media screen and (max-width: 480px) {
+    /* body {
+        background-color: green;
+    } */
+    .robot_pic {
+        width: 350px;
+        height: 250px;
+    }
+    #robot_team {
+        width: 360px;
+        height: auto;
+    }
 }
