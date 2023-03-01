@@ -136,11 +136,34 @@ input[type=submit]:hover, input[type=reset]:hover {
         background-color: green;
     } */
     .robot_pic {
-        width: 350px;
-        height: 250px;
+        width: 320px;
+        height: 200px;
     }
     #robot_team {
-        width: 360px;
+        width: 320px;
         height: auto;
+    }
+    nav, footer {
+        font-size: 12px;
+        float: none;
+        text-align: center;
+    }
+    #thisWebsite {
+        width: 320px;
+        height: auto;
+    }
+    #myPicture {
+        width: auto;
+        height: 300px;
+    }
+    #securityFloor {
+        width: 320px;
+        height: auto;
+    }
+    .a {
+        float: none;
+    }
+    #linkedIn {
+        display: none;
     }
 }

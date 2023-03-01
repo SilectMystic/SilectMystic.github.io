@@ -1,7 +1,7 @@
 import Brusher from 'brusher';
 
 const brusher = new Brusher({
-  image: 'sutle-prism.png'
+  image: 'subtle-prism.png'
 });
 
 brusher.init();
