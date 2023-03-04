@@ -35,6 +35,7 @@ nav > a:hover {
 
 footer {
     background-color: #96979c;
+    bottom: 0px;
 }
 
 footer > a {
@@ -128,24 +129,49 @@ input[type=submit]:hover, input[type=reset]:hover {
 body{
     margin-left: auto;
     margin-right: auto;
-    max-width: 1024px;
+    max-width: 1080px;
 }
 
 .grid {
     display: grid;
-    background-color: white;
+    background-color: #5f6c7b;
     grid-template-columns: auto auto;
-    padding: 10px;
+    padding: 5px;
+    width: 900px;
+    margin: auto;
 }
 
 .gridItem {
-    background-color: green;
-    border: 1px blue;
+    background-color: #232946;
+    border: 2px #55423d;
+    border-style: solid;
+    padding: 15px;
+}
+
+body {
+    background-size: cover;
+    background-position: 0 0;
+    background-attachment: fixed;
+    background-image: url("blurred_subtlePrism.png");
+  }
+
+.grid_2 {
+    display: grid;
+    background-color: #5f6c7b;
+    grid-template-columns: auto auto;
+    padding: 5px;
+    width: 409px;
+    margin: auto;
+}
+
+.gridItem_2 {
+    background-color: #232946;
+    border: 2px #55423d;
     border-style: solid;
     padding: 15px;
     text-align: center;
+    width: 375px;
 }
-
  /* p{
     max-width: 668px;
     position:  relative;
@@ -178,7 +204,7 @@ body{
         height: 300px;
     }
     #securityFloor {
-        width: 320px;
+        width: 250px;
         height: auto;
     }
     .a {
@@ -186,5 +212,38 @@ body{
     }
     #linkedIn {
         display: none;
+    }
+    .grid{
+        grid-template-columns: auto;
+        padding: 5px;
+        font-size: small;
+        width: 350px;
+        height: auto;
+        margin: auto;
+    }
+    .gridItems{
+        padding: 5px;
+    }
+    .imgGrid {
+        width: 200px;
+        height: auto;
+    }
+    .grid_2 {
+        grid-template-columns: auto;
+        padding: 5px;
+        font-size: small;
+        width: 344px;
+        height: auto;
+        margin: auto;
+    }
+    .gridItem_2 {
+        padding: 5px;
+        width: 330px;
+    }
+    p > iframe {
+        padding: 3px;
+    }
+    input[type=submit], input[type=reset] {
+        font-size: 17px;
     }
 }
