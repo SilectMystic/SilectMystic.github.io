@@ -247,3 +247,26 @@ body {
         font-size: 17px;
     }
 }
+
+@media screen and (max-width: 920px) {
+    .grid {
+        width: 700px;
+        height: auto;
+    }
+    .gridItem{
+        width: 300px;
+        height: auto;
+        padding: 23px;
+    }
+    #securityFloor {
+        width: 300px;
+        height: auto;
+    }
+    .grid_2 {
+        width: 368px;
+        height: auto;
+    }
+    .gridItem_2 {
+        width: 333px;
+    }
+}
