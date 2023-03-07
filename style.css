@@ -20,6 +20,7 @@ nav {
     text-align: left;
     position: sticky;
     top: 0px;
+    border-radius: 8px;
 }
 
 nav > a {
@@ -27,6 +28,7 @@ nav > a {
     text-decoration: none;
     padding: 8px;
     display: inline-block;
+    border-radius: 8px;
 }
 
 nav > a:hover {
@@ -36,17 +38,10 @@ nav > a:hover {
 footer {
     background-color: #96979c;
     bottom: 0px;
-}
-
-footer > a {
+    border-radius: 8px;
     color: #010101;
     text-decoration: none;
     padding: 8px;
-    display: inline-block;
-}
-
-footer > a:hover {
-    background-color: #55423d;
 }
 
 li > a {
