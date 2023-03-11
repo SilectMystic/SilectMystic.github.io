@@ -44,6 +44,11 @@ footer {
     padding: 8px;
 }
 
+ul{
+    display: inline-block;
+    text-align: left;
+}
+
 li > a {
     color: #fff3ec;
     text-decoration: none;
@@ -167,11 +172,18 @@ body {
     text-align: center;
     width: 375px;
 }
- /* p{
-    max-width: 668px;
-    position:  relative;
-    left: 15%;}
-     work in progress  */
+
+.logo {
+    width: 30px;
+    text-align: left;
+    padding: 0px;
+    border: 0px;
+}
+
+#compVid {
+    border: 0px;
+}
+
 
 @media screen and (max-width: 480px) {
     /* body {
