@@ -17,7 +17,6 @@ h1, h2, h3, h4, h5, h6 {
 
 nav {
     background-color: #72757e;
-    text-align: left;
     position: sticky;
     top: 0px;
     border-radius: 8px;
@@ -137,7 +136,7 @@ body{
     background-color: #5f6c7b;
     grid-template-columns: auto auto;
     padding: 5px;
-    width: 900px;
+    width: 886px;
     margin: auto;
 }
 
@@ -146,10 +145,27 @@ body{
     border: 2px #55423d;
     border-style: solid;
     padding: 20px;
+    width: 400px;
+
 }
 
+/* #gridItem_1 {
+    background-color: #232946;
+    border: 2px #55423d;
+    border-style: solid;
+    padding: 20px;
+    width: 350px;
+}
+
+#gridItem_3 {
+    background-color: #232946;
+    border: 2px #55423d;
+    border-style: solid;
+    padding: 20px;
+} */
+
 #securityFloor {
-    width: 400px;
+    width: 350px;
     height: auto;
 }
 
@@ -157,11 +173,11 @@ body {
     background-size: cover;
     background-position: 0 0;
     background-attachment: fixed;
-    background-image: url("blurred_subtlePrism.png");
+    background-image: url("blurred_subtlePrism-min.png");
   }
 
 hr {
-    border: 1px solid #fffffe;
+    border: 1px solid #96979c;
 }
 
 .grid_2 {
@@ -182,11 +198,16 @@ hr {
     width: 375px;
 }
 
-#logo {
+.logo {
     width: 35px;
-    position: absolute;
-    top: 1px;
-    left: 3px;
+    top: 0px;
+    left: 0px;
+    background-color: #72757e;
+    border: 0px;
+    padding: 0px;
+}
+
+.logo:hover {
     background-color: #72757e;
 }
 
@@ -227,9 +248,41 @@ hr {
 }
 
 nav {
-    padding: 8px;
+    padding: 18px;
 }
 
+.relative {
+    position: relative;
+}
+
+/* div > a{
+    text-decoration: none;
+    padding: 8px;
+    color: #010101;
+}
+
+div > a:hover {
+    background-color: #55423d;
+    border-radius: 8px;
+} */
+
+.navLinks {
+    text-decoration: none;
+    padding: 7px;
+    color: #010101;
+    top: 0px;
+    overflow: auto;
+    position: absolute;
+}
+
+.navLinks:hover {
+    background-color: #55423d;
+    border-radius: 8px;
+}
+
+.nonderline {
+    text-decoration: none;
+}
 /* .navItem {
     border-radius: 8px;
     color: #010101;
@@ -244,6 +297,28 @@ nav {
     border: 0px;
 }
 
+.logo {
+    padding: 0;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.logo:hover {
+    background-color: transparent;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+#altLogo{
+    display: none;
+}
+
+.sticky {
+    position: sticky;
+}
 
 @media screen and (max-width: 480px) {
     /* body {
@@ -277,7 +352,7 @@ nav {
     .a {
         float: none;
     }
-    #linkedIn {
+    #navItem5 {
         display: none;
     }
     .grid{
@@ -288,8 +363,9 @@ nav {
         height: auto;
         margin: auto;
     }
-    .gridItems{
+    .gridItem {
         padding: 5px;
+        width: 336px;
     }
     .imgGrid {
         width: 200px;
@@ -313,7 +389,53 @@ nav {
     input[type=submit], input[type=reset] {
         font-size: 17px;
     }
-    nav > a {
+    nav > div{
+        /* position: static; */
+        margin: auto;
+        text-align: center;
+        top: 1px;
+    }
+    .navLinks {
+        /* position: fixed; */
+        overflow: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    .logo {
+        display: block;
+        top: -10px;
+        left: -2px;
+    }
+    #altLogo {
+        display: none;
+        left: 0px;
+        top: 8px;
+    }
+    #navItem {
+        left: 50px;
+        top: 0px;
+    }
+    #navItem4 {
+        right: 0px;
+    }
+    #navItem3 {
+        left: 177px;
+        width: 65px;
+    }
+    #navItem2 {
+        left: 113px;
+    }
+
+    /* .logo {
+        left: -15px;
+    }
+    .navLinks {
+        overflow: auto;
+    }
+    nav {
+        padding: 15px;
+    } */
+    /* nav > a {
         position: inherit;
         font-size: 10px;
         overflow: auto;
@@ -328,6 +450,25 @@ nav {
 
     }
     nav {
-        padding: 16px;
+        position: sticky;
     }
+    nav > div {
+        padding: 0px;
+        position: inherit;
+        text-align: center;
+    }
+    .navLinks {
+        padding: 0px;
+        position: inherit;
+        text-align: center;
+        left: auto;
+        right: auto;
+        overflow: auto;
+    }
+    .logo {
+       display: none;
+    }
+    #altLogo {
+        display: block;
+    } */
 }

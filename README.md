@@ -1,7 +1,3 @@
 # SilectMystic.github.io
 
-mobile navbar currently broken
-
-pc version ready for use
-
-upgraded navbar currently work in progress
+Website fully completed and ready for both pc and mobile devices!
